@@ -4,3 +4,5 @@ if len(num) != 5 or not num.isdigit():
 else:
   if num == num[::-1]:
     print("是回文数")
+  else:
+    print("不是回文数")
